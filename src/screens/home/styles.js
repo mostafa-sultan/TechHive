@@ -28,29 +28,17 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         marginBottom: 20,
-    },
-    itemImage: {
-        width: 60,
-        height: 60,
-        borderRadius: 30,
-        marginRight: 20,
-    },
+    }, 
     itemContent: {
-        flex: 1,
-    },
-    itemcontent: {
+        flex: 1,  
         fontSize: 16,
         fontWeight: 'bold',
-    },
-    itemdate: {
-        fontSize: 16,
-        color: '#352a2a',
-    },
+    }, 
     buttons: {
         flexDirection: 'row',
     },
     button: {
-        backgroundColor: '#FFC107',
+        backgroundColor: '#978b67',
         borderRadius: 5,
         padding: 10,
         marginRight: 10,
@@ -62,13 +50,17 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     addButton: {
-        backgroundColor: "#cc7b7b",
-        margin: 22,    
-        alignItems: 'center',
-        justifyContent: 'center',  
-        flex: 0.5,
-        borderRadius:85
+        backgroundColor: '#363329',
+        borderRadius: 20,
+        padding: 10,
+        margin: 15,
+        alignItems:'center'
+    },
+    header:{
+        flexDirection:'row', 
+        justifyContent:'space-between'
     }
+
 })
   export default styles;
   

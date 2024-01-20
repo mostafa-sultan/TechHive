@@ -41,15 +41,7 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontWeight: 'bold',
-    },
-    createAccountButton: {
-        marginTop: 20,
-    },
-    createAccountButtonText: {
-        color: '#20B2AA',
-        fontSize: 12,
-        fontWeight: 'bold',
-    },
+    }, 
 });
 
 export default styles;
